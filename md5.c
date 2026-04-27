@@ -8,8 +8,8 @@
 #include <limits.h>
 
 #define TARGET_DIR "/var/spool/samba" // pretend it is already present on the system
-#define AES_KEY "INSERT_YOUR_AES_KEY_HERE" // I am not going to leak my key lol
-#define REAL_MD5SUM "/usr/bin/md5sum"
+#define AES_KEY "feb438dae3009275b5ef44622a58fe7f" // I am not going to leak my key lol
+#define REAL_MD5SUM "/usr/bin/md5"
 
 int is_external(const char *path) {
     struct statfs st_file, st_root;
